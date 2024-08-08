@@ -23,17 +23,17 @@ Write a function that takes the Country name and returns its capital.
 - List of countries will vary, some will be in Europe and others won't (relevant for bonus task). Countries will be objects (key value pairs - the name of the country : its Capital) For example:
 
 `const countries =  {
-    "France" : "Paris",
-    "Italy": "Rome",
-    "Japan" : "Tokyo",
-    "Nigeria" : "Abuja",
-    "Spain" : "Madrid",
-    "Australia" : "Canberra",
-    "Pakistan" : "Islamabad",
-    "Germany": "Berlin",
+    France : "Paris",
+    Italy: "Rome",
+    Japan : "Tokyo",
+    Nigeria : "Abuja",
+    Spain : "Madrid",
+    Australia : "Canberra",
+    Pakistan : "Islamabad",
+    Germany: "Berlin",
   }`
 
-- Users need to be able to access the object countries, and extract the value from the key value pair which would be the capital of the city. This would be inputted as a parametre into the function and then they would need to use either the dot notation or the square brackets in the function body. They can do this with an if statement, returning the capital of the city, else it will retrun the error message 'Country not found'.
+- Users need to be able to access the object countries, and extract the value from the key value pair which would be the capital of the city. This would be inputted as a parameter into the function and then they would need to use the square brackets to access the property of countries object in the function body. They can do this with an if statement, returning the capital of the city, else it will retrun the error message 'Country not found'.
 
 - To test using Vitest, I need to be able to check that the name of the country is expected to match the correct capital. For example, expect Japan to be Tokyo. I also need a test to account for a country that isn't found where the expected output would be 'Country not found'.
 
@@ -41,7 +41,7 @@ Write a function that takes the Country name and returns its capital.
 
 ## MVP 2 🤯:
 
-- For the bonus task, users need to be able to create a function that will be able to return true if a country is in Europe and false if it isn't. They should also account for typo's and countries which arent listed by returning a message which says `sorry that `${...}` is not in the list of known countries`.
+- For the bonus task, users need to be able to create a function that will be able to return true if a country is in Europe and false if it isn't. They should also account for typo's and countries which arent listed by returning a message which says `sorry `${...}` is not in the list of known countries`.
 
 - First users will need to create a variable which will store a list of the countries in Europe from the variable that was created for the first MVP.
 
