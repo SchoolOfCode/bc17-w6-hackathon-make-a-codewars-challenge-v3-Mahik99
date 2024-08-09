@@ -40,3 +40,7 @@ Write a function that takes the Country name and returns its capital.
 - Since the variable for the countries in Europe should be an array, users can use the `includes()` method to check if all the countries in the countries variable are included in the countries in Europe array. This method will return true if the country is in Europe and false if it isn't.
 
 - Testing: I need to create a test that will expect the value to be true if the country eg France is in Europe and a test to expect the value to be false if the country eg Pakistan is not in Europe. I also need to test for an invalid input eg a typo or a country not listed.
+
+## Feedback
+
+- Please share any feedback or improvements you have on the clarity of the instructions, the difficulty level, and effectiveness of the tests.
